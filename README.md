@@ -1,7 +1,3 @@
-Here’s an updated `README.md` for your authentication system based on the routes you've provided:
-
----
-
 # Authentication System
 
 This repository contains an authentication system built with **Node.js**, **Express.js**, **JWT**, **Mongoose**, **bcrypt**, and **Two-Factor Authentication (2FA)**. It includes user registration, email verification, login, and 2FA for added security.
