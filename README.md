@@ -1,6 +1,6 @@
 # Authentication System
 
-This repository contains an authentication system built with **Node.js**, **Express.js**, **JWT**, **Mongoose**, **bcrypt**, and **Two-Factor Authentication (2FA)**. It includes user registration, email verification, login, and 2FA for added security.
+This repository contains an authentication system built with **Node.js**, **Express.js**, **JWT**, **bcrypt**, and **Two-Factor Authentication (2FA)**. It includes user registration, email verification, login, and 2FA for added security.
 
 ## Features
 
@@ -16,3 +16,13 @@ This repository contains an authentication system built with **Node.js**, **Expr
 - **Mongoose** for MongoDB
 - **JWT**
 - **bcrypt**
+
+## Environment Variables
+
+Make sure to set the following environment variables:
+
+- `jwtSecret=""` - Secret key for signing JWT tokens.
+- `emailPass=""` - Password for the email service used for sending verification emails.
+- `email=""` - Email address used for sending verification emails.
+- `baseUrl=""` - Base URL of your application (e.g., http://localhost:3000).
+- `mongodbUri=""` - MongoDB connection URI.
